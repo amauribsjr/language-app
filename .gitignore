@@ -1,32 +1,14 @@
-# Compiled class files
-*.class
-
-# Package Files
-*.jar
-*.war
-*.ear
-
-# Log files
-*.log
-log/
-logs/
-
-# IDE files
-.idea/
-*.iml
-*.ipr
-*.iws
-out/
-target/ # Pasta de build do Maven
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-*.swp
-
-#data/idiomas.db
+   # Arquivos de banco de dados
+   *.db
+   *.db-journal
+   
+   # Arquivos do IntelliJ
+   .idea/
+   *.iml
+   out/
+   
+   # Arquivos do Maven
+   target/
+   
+   # Outros
+   *.log
