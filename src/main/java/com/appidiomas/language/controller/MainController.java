@@ -165,7 +165,6 @@ public class MainController {
             return;
         }
 
-        // Changed generic type to ButtonType
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.setTitle("Atualizar Idioma");
         dialog.setHeaderText("Renomear o idioma '" + idiomaSelecionado.getNome() + "'");
@@ -189,9 +188,8 @@ public class MainController {
             );
         }
 
-        Optional<ButtonType> result = dialog.showAndWait(); // Now Optional<ButtonType>
+        Optional<ButtonType> result = dialog.showAndWait();
 
-        // Check if the result is present AND if the "Update" button was clicked
         if (result.isPresent() && result.get() == updateButtonType) {
             String nomeTrimmed = novoNomeField.getText().trim();
             if (!nomeTrimmed.isEmpty()) {
@@ -206,7 +204,6 @@ public class MainController {
                 mostrarAlerta(AlertType.WARNING, "Campo Vazio", "O novo nome do idioma não pode ser vazio.");
             }
         }
-        // If result is not present or if Cancel was clicked, do nothing.
     }
 
     @FXML
