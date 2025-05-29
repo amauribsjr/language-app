@@ -8,7 +8,7 @@ Este projeto visa oferecer uma plataforma simples para usuários praticarem voca
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 21 (17+)**
+- **Java 17+ (recomendado: Java 21)** – Versões superiores podem apresentar limitações no JavaFX
 - **JavaFX** – Interface gráfica
 - **SQLite** – Banco de dados local
 - **Maven** – Gerenciamento de dependências
@@ -21,16 +21,29 @@ language-app/
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── br/
-│       │       └── com/
-│       │           └── languageapp/
-│       │               ├── Main.java
-│       │               ├── controllers/
-│       │               ├── models/
-│       │               └── utils/
+│       │   └── com/
+│       │       └── appidiomas/
+│       │           ├── language/
+│       │           ├── App.java
+│       │           ├── controller/
+│       │           │   └── MainController.java
+│       │           ├── db/
+|       |           |   ├── DatabaseManager.java
+│       │           |   ├── IdiomaDB.java
+│       │           │   └── TopicoDB.java
+│       │           ├── model/
+│       │           │   ├── Idioma.java
+│       │           │   └── Topico.java
+│       │           └── service/
+│       │               ├── IdiomaService.java
+│       │               └── TopicoService.java
 │       └── resources/
-│           ├── fxml/
-│           └── images/
+│           └── com/
+│               └── appidiomas/
+│                   └── language/
+│                       ├── main-view.fxml
+│                       └── styles.css
+├── .gitignore
 ├── pom.xml
 └── README.md
 ```
@@ -38,7 +51,7 @@ language-app/
 ## 🚀 Como Executar
 
 1. **Pré-requisitos**:
-   - Java 17 ou superior (após o 21 algumas funcionalidades nativas do JavaFX perdem suporte)
+   - Java 17 ou superior (recomendado: Java 21)
    - Maven instalado
    - JavaFX configurado no classpath
 
@@ -59,16 +72,16 @@ language-app/
 
 ## 🧩 Funcionalidades Planejadas
 
-- Cadastro e autenticação de usuários
+- Cadastro de usuário local
 - Exercícios de vocabulário e gramática
 - Feedback de desempenho
 - Suporte a múltiplos idiomas
-- Interface responsiva e amigável
+- Melhorias significativas de interface
 
 ## 📌 Status do Projeto
 
-🟡 Em desenvolvimento inicial. Atualmente, o projeto contém a estrutura básica e configurações iniciais. Funcionalidades principais ainda estão em fase de implementação.
+🟡 Em desenvolvimento inicial. Atualmente, o projeto contém a estrutura básica e configurações iniciais. Funcionalidades principais ainda estão em fase de melhorias, algumas ainda em desenvolvimento.
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
