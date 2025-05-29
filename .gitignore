@@ -1,14 +1,14 @@
-   # Arquivos de banco de dados
-   *.db
-   *.db-journal
+# Arquivos de banco de dados
+*.db
+*.db-journal
    
-   # Arquivos do IntelliJ
-   .idea/
-   *.iml
-   out/
+# Arquivos do IntelliJ
+.idea/
+*.iml
+out/
    
-   # Arquivos do Maven
-   target/
+# Arquivos do Maven
+target/
    
-   # Outros
-   *.log
+# Outros
+*.log

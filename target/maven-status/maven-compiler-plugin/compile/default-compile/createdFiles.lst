@@ -1,8 +1,0 @@
-com\appidiomas\language\App.class
-com\appidiomas\language\service\TopicoService.class
-com\appidiomas\language\TerminalApp.class
-com\appidiomas\language\model\Idioma.class
-com\appidiomas\language\controller\MainController.class
-com\appidiomas\language\model\Topico.class
-com\appidiomas\language\db\DatabaseManager.class
-com\appidiomas\language\service\IdiomaService.class
