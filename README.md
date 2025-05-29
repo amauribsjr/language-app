@@ -38,7 +38,7 @@ language-app/
 ## 🚀 Como Executar
 
 1. **Pré-requisitos**:
-   - Java 17 ou superior
+   - Java 17 ou superior (após o 21 algumas funcionalidades nativas do JavaFX perdem suporte)
    - Maven instalado
    - JavaFX configurado no classpath
 
