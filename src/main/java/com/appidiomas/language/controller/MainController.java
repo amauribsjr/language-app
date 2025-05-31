@@ -232,7 +232,6 @@ public class MainController {
 
         vboxIdiomas.setVisible(false);
         vboxIdiomas.setManaged(false);
-
         vboxTopicos.setVisible(true);
         vboxTopicos.setManaged(true);
     }
