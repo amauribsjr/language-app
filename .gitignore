@@ -12,3 +12,4 @@ target/
    
 # Outros
 *.log
+.vscode/tasks.json
