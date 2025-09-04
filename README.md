@@ -8,7 +8,7 @@ Este projeto visa oferecer uma plataforma simples para usuários praticarem voca
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 17+ (recomendado: Java 21)** – Versões superiores podem apresentar limitações no JavaFX
+- **Java 17+ (recomendado: Java 21)**
 - **JavaFX** – Interface gráfica
 - **SQLite** – Banco de dados local
 - **Maven** – Gerenciamento de dependências
